@@ -17,7 +17,7 @@ loginButton.addEventListener("click", () => {
         postSection.style.display = "block"; // Show the post form
         loginButton.style.display = "none"; // Hide the login button
     } else {
-        alert("Incorrect master key. Access denied!");
+        alert("Incorrect master key. Access denied Bitch!");
     }
 });
 
