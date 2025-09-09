@@ -1,0 +1,30 @@
+// Master key for the user who can post
+const masterKey = "GOSSIPGIRL123"; // Set the master key (you can change this)
+
+const loginButton = document.getElementById("loginButton");
+const postSection = document.getElementById("postSection");
+const submitPostButton = document.getElementById("submitPostButton");
+const postContent = document.getElementById("postContent");
+
+// Show login prompt and allow access to post if the master key is entered
+loginButton.addEventListener("click", () => {
+    let enteredKey = prompt("Enter the Master Key to Post:");
+
+    if (enteredKey === masterKey) {
+        postSection.style.display = "block"; // Show the post form
+        loginButton.style.display = "none"; // Hide the login button
+    } else {
+        alert("Incorrect master key. Access denied bitch!");
+    }
+});
+
+// Handle the post submission
+submitPostButton.addEventListener("click", () => {
+    const content = postContent.value.trim();
+    if (content) {
+        alert("Post submitted successfully!"); // In a real app, you'd save this to a server
+        postContent.value = ''; // Clear the content
+    } else {
+        alert("Please enter some gossip, Dana!");
+    }
+});

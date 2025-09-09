@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e5ab; /* Soft buttercream yellow */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f8c400; /* A slightly brighter yellow for the header */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #ffeb3b; /* A soft yellow highlight on hover */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    background-color: #fff9e5; /* Light buttercream background for posts */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Soft shadow */
+}
+
+button {
+    background-color: #f8c400;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px; /* Rounded corners for buttons */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle button shadow */
+}
+
+button:hover {
+    background-color: #ffeb3b; /* Hover effect with a soft yellow */
+}
+
+footer {
+    background-color: #f8c400;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+ul li a {
+    color: #f8c400; /* Matching link color to the header */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #ffeb3b; /* Subtle hover effect */
+}
+
+textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #f8c400;
+    background-color: #fff9e5;
+}
+
+#postSection {
+    margin-top: 20px;
+}
+body {
+    background-color: #f3e5ab;
+    background-image: url('https://www.transparenttextures.com/patterns/diagonal-stripes-light.png');
+}
